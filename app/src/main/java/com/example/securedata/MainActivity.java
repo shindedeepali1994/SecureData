@@ -10,6 +10,7 @@ import net.sqlcipher.database.SQLiteDatabase;
 public class MainActivity extends AppCompatActivity {
 
     DatabaseOp db;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
